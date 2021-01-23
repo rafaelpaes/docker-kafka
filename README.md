@@ -13,5 +13,5 @@ kafka-topics.sh --create --zookeeper zookeeper:2181 --replication-factor 1 --par
 # Example of creating a topic news
 kafka-topics.sh --create --zookeeper zookeeper:2181 --replication-factor 1 --partitions 1 --topic news
 
-# Example of listings topics should result of dcb and news
+# Example of listings topics the result should be dcb and news
 kafka-topics.sh --list --zookeeper zookeeper:2181                                                   
